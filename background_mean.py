@@ -6,9 +6,8 @@ import numpy as np
 
 BACKGROUND_SAMPLING = 0.25
 DATASET_PATH = "{0}/dataset/highway/input".format(os.getcwd())
-print DATASET_PATH
 
-if __name__ == '__main__':
+def main():
     background_samples = glob.glob("{0}/*.jpg".format(DATASET_PATH))
     
     K = int(len(background_samples) * BACKGROUND_SAMPLING)
@@ -36,3 +35,6 @@ if __name__ == '__main__':
 
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+if __name__ == '__main__':
+    main()

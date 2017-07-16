@@ -15,8 +15,7 @@ git clone https://github.com/thomaspark-pkj/deep-background-subtraction.git
 https://drive.google.com/file/d/0B3900WfBcV9BS1NWSzh1T3U3YUU/view?usp=sharing
 ```
 
-unzip dataset.zip
-python background_mean.zip
+unzip dataset.zip; python background_mean.py
 
 ## Traininig
 TODO
